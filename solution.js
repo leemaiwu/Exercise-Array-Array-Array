@@ -27,8 +27,8 @@ function explode(x){
     return arr
 }
 
-console.log(explode([1, 0])) // 1
-console.log(explode([9, 3])) // 12
-console.log(explode(['a', 3])) // 3
+console.log(explode([1, 0])) // [[1, 0]]
+console.log(explode([2, 3])) // [[9, 3], [9, 3], [9, 3], [9, 3], [9, 3]]
+console.log(explode(['a', 3])) // [['a', 3], ['a', 3], ['a', 3]]
 console.log(explode(['a', 'b'])) // Void!
-console.log(explode(["a", 0])) // 12
+console.log(explode(["a", 0])) // []
